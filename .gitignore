@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+data/input/*
+data/output/*
+logs/*.log
+logs/*.log.*
+!data/input/.gitkeep
+!data/output/.gitkeep
+!logs/.gitkeep

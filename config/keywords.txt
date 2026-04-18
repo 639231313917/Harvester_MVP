@@ -1,0 +1,23 @@
+# Список ключевых слов для фильтра должностей (position).
+# Матчинг: подстрока, без учёта регистра.
+# Например, ключевое слово "programmatic" поймает "Senior Programmatic Manager",
+# "Head of Programmatic Partnerships" и т.д.
+#
+# Пустые строки и строки, начинающиеся с # — игнорируются.
+# Можно указывать словосочетания (пробелы сохраняются).
+
+programmatic
+monetization
+ad ops
+adops
+yield
+publisher
+revenue
+inventory
+media buying
+head of ads
+partnerships
+demand
+supply
+ssp
+dsp

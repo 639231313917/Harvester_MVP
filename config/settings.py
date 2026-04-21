@@ -52,6 +52,13 @@ class Settings:
     API_CONCURRENCY_LIMIT: int = int(os.getenv("API_CONCURRENCY_LIMIT", "10"))
     REQUEST_TIMEOUT: int = int(os.getenv("REQUEST_TIMEOUT", "15"))
 
+    # --- Google Integration ---
+    GOOGLE_CREDS_PATH: str = os.getenv("GOOGLE_CREDS_PATH", "credentials.json")
+    DRIVE_OUTPUT_FOLDER_ID: str = os.getenv("DRIVE_OUTPUT_FOLDER_ID", "")
+    DRIVE_INPUT_FILE_ID: str = os.getenv("DRIVE_INPUT_FILE_ID", "")
+    SHEET_RESULTS_ID: str = os.getenv("SHEET_RESULTS_ID", "")
+    SHEET_REPORTS_ID: str = os.getenv("SHEET_REPORTS_ID", "")
+
     USER_AGENT: str = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
